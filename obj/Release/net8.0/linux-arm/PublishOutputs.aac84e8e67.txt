@@ -1,2 +1,0 @@
-/home/foxide/RpiTestApp/publish/RpiTestApp.pdb
-/home/foxide/RpiTestApp/publish/RpiTestApp
