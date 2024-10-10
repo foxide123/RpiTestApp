@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RpiTestApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ac530c6f0d20d5b1f5f8c2164dd2ae153ec13f26")]
 [assembly: System.Reflection.AssemblyProductAttribute("RpiTestApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RpiTestApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

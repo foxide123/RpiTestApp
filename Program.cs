@@ -2,6 +2,7 @@
 using System;
 using System.Linq;
 using System.Threading;
+using Avalonia.Svg.Skia;
 
 namespace RpiTestApp;
 
@@ -43,8 +44,14 @@ sealed class Program
 
     // Avalonia configuration, don't remove; also used by visual designer.
     public static AppBuilder BuildAvaloniaApp()
-        => AppBuilder.Configure<App>()
+	{
+		// These 2 lines are necessary for Avalonia.Svg package
+		GC.KeepAlive(typeof(SvgImageExtension).Assembly);
+        GC.KeepAlive(typeof(Avalonia.Svg.Skia.Svg).Assembly);
+
+		return AppBuilder.Configure<App>()
             .UsePlatformDetect()
             .WithInterFont()
             .LogToTrace();
+	}
 }
