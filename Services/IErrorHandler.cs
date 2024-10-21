@@ -1,9 +1,13 @@
-using RpiTestApp.Services.Implementations.ErrorHandling
+using RpiTestApp.Services.Implementations.ErrorHandler;
 
 namespace RpiTestApp.Services
 {
     public interface IErrorHandler
     {
-        void HandleError(Status MessageModel statusMessageModel);
+        void HandleError(StatusMessageModel statusMessageModel);
+    }
+
+    public class StatusMessageModel
+    {
     }
 }

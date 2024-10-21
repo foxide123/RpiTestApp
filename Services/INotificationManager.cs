@@ -1,4 +1,4 @@
-using RpiTestApp.Services.Implementations.Notifications
+using RpiTestApp.Services.Implementations.Notifications;
 
 namespace RpiTestApp.Services
 {
